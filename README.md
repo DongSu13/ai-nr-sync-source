@@ -72,4 +72,4 @@ python src/python/run_paper_repro.py --output outputs/paper_repro_smoke --train 
 
 ## 许可证
 
-本仓库代码采用 [MIT License](LICENSE)，允许使用、修改和再分发（包括商业用途），须保留版权及许可声明。MATLAB、5G Toolbox 和其他第三方依赖遵循各自许可证。
+本仓库代码采用 [MIT License](LICENSE)，允许使用、修改和再分发，须保留版权及许可声明。MATLAB、5G Toolbox 和其他第三方依赖遵循各自许可证。
