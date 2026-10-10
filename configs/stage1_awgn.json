@@ -1,0 +1,10 @@
+{
+  "seed": 20260922,
+  "ncellid": 42,
+  "scs_khz": 15,
+  "nsize_grid": 20,
+  "timing_offset_samples": 191,
+  "cfo_hz": 300,
+  "snr_db": 25,
+  "cfo_search_hz": [-500, 500, 50]
+}

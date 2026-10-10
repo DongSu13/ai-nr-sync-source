@@ -1,0 +1,11 @@
+{
+  "seed": 20260922,
+  "scs_khz": 15,
+  "nsize_grid": 20,
+  "snr_db": 30,
+  "cfo_search_hz": [-500, 500, 50],
+  "users": [
+    {"pci": 42, "timing_offset_samples": 191, "cfo_hz": 300, "power_db": 0},
+    {"pci": 517, "timing_offset_samples": 450, "cfo_hz": -200, "power_db": -3}
+  ]
+}

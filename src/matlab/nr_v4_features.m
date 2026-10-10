@@ -1,0 +1,9 @@
+function x=nr_v4_features(candidate,state)
+names={'pss','sss','correlation','peak_ratio','consistency','abs_cfo',...
+    'dmrs_power','dmrs_coherence','dmrs_fit_error','dmrs_variation','llr_abs',...
+    'llr_low_fraction','estimated_noise'};
+x=zeros(1,17);for j=1:13,x(j)=candidate.features.(names{j});end
+x(14:17)=[state.search_count,state.decode_count,...
+    sum(abs(state.rx).^2)/state.original_energy,numel(state.outputs)];
+assert(all(isfinite(x)));
+end
